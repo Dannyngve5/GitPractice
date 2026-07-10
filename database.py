@@ -6,4 +6,5 @@ class Database:
         print("Disconnecting from database...")
 
     def connect_alternative(self):
-        print("Connection alternative stablished")
+        """Initialize database connection."""
+        print("Connection alternative established")
