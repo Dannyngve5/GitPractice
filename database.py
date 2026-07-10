@@ -3,7 +3,7 @@ class Database:
         print("Connecting to database...")
 
     def disconnect(self):
-        print("Disconnecting from database...")
+        return False
 
     def connect_alternative(self):
         """Initialize database connection."""
