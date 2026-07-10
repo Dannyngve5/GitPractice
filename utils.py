@@ -4,3 +4,6 @@ def validate_username(username):
 
 def validate_password(password):
     return len(password) >= 8
+
+def register_user(usernmae):
+    return print("user registered")
