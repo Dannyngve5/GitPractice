@@ -6,4 +6,5 @@ def validate_password(password):
     return len(password) >= 8
 
 def register_user(usernmae):
+    print("Not spaces")
     return print("user registered")
